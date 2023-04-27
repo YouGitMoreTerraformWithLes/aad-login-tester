@@ -1,10 +1,10 @@
 export const msalConfig: any = {
   auth: {
-    clientId: "a79fa0ef-e676-4f95-87d3-64304ceebec4",
-    authorityUrl: "https://login.microsoftonline.com/7832cdfd-b337-4d07-af7e-9de082e16b31",
-    tenantId: "7832cdfd-b337-4d07-af7e-9de082e16b31",
+    clientId: "1234567890",
+    authorityUrl: "https://login.microsoftonline.com/1234567890",
+    tenantId: "1234567890",
     knownAuthorities: ["https://login.microsoftonline.com"],
-    primaryDomain: "sdsheriff.gov",
+    primaryDomain: "mydomain.com",
     redirectUri: window.location.origin,
     postLogoutRedirectUri: window.location.origin,
   }
